@@ -7,5 +7,8 @@
 *.bak
 .DS_Store
 
+# Oh My Zsh - no subas los 364 plugins default
+oh-my-zsh/plugins/
+
 # Keep these but they're usually personal
 # .gitignore (your main gitignore)
