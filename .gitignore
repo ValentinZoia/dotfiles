@@ -1,0 +1,11 @@
+# Ignore sensitive files
+.zsh_history
+.node_modules/
+.bun/
+.cache/
+*.log
+*.bak
+.DS_Store
+
+# Keep these but they're usually personal
+# .gitignore (your main gitignore)
