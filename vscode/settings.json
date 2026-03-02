@@ -1,0 +1,213 @@
+{
+    // Tema de íconos usado en el explorador y barra lateral
+    "workbench.iconTheme": "material-icon-theme",
+    // Define el modelo AI usado por GitLens (vinculado a Copilot)
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    // Ajusta el texto automáticamente al ancho del editor
+    "editor.wordWrap": "on",
+    // Formatea el código automáticamente al guardar el archivo
+    "editor.formatOnSave": true,
+    // Tema de colores del editor
+    "workbench.colorTheme": "Kanagawa Wave",
+    // Ubica la barra de actividad (íconos laterales) en la parte inferior
+    "workbench.activityBar.location": "bottom",
+    // // Muestra una sola pestaña del editor (oculta las demás)
+    // "workbench.editor.showTabs": "single",
+    // // Muestra la barra de estado inferior
+    "workbench.statusBar.visible": true,
+    // // No mostrar ningún editor o pantalla de inicio al abrir VS Code
+    "workbench.startupEditor": "none",
+    // // Desactiva/Activa los consejos emergentes al iniciar VS Code
+    // "workbench.tips.enabled": false,
+    // // Desactiva/Activa el minimapa (vista reducida del código)
+    "editor.minimap.enabled": false,
+    // // Desactiva/Activa las migas de pan (breadcrumbs)
+    "breadcrumbs.enabled": false,
+    // // Mueve la barra lateral (explorador, etc.) a la derecha
+    "workbench.sideBar.location": "right",
+    // // Oculta las flechas de expansión en el explorador
+    "material-icon-theme.hidesExplorerArrows": true,
+    // // Desactiva/Activa el scroll adhesivo (sticky scroll) en el árbol del explorador
+    "workbench.tree.enableStickyScroll": false,
+    // // No muestra las líneas guías de indentación en el árbol
+    "workbench.tree.renderIndentGuides": "none",
+    // // Define el nivel de indentación de los ítems en el explorador
+    "workbench.tree.indent": 8,
+    // // Desactiva/Activa el modo de carpetas compactas en el explorador
+    "explorer.compactFolders": false,
+    // // Desactiva/Activa la confirmación al arrastrar y soltar archivos
+    "explorer.confirmDragAndDrop": false,
+    // // Desactiva/Activa la confirmación al eliminar archivos
+    "explorer.confirmDelete": false,
+    // // Oculta los íconos de estado (badges) en el explorador
+    "explorer.decorations.badges": true,
+    // // Desactiva/Activa los íconos decorativos de Git (como los cambios en archivos)
+    "git.decorations.enabled": true,
+    // // Usa la barra de título nativa del sistema operativo
+    "window.titleBarStyle": "native",
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16
+        }
+    },
+    "custom-ui-style.stylesheet": {
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-list .scrollbar": "display: none",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+        ".quick-input-titlebar": "background: #100B15 !important",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".sidebar": "border: none !important",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+        ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    },
+    "custom-ui-style.font.sansSerif": "Dank Mono",
+    // // Define el modificador (Ctrl o Cmd) para múltiples cursores
+    // "editor.multiCursorModifier": "ctrlCmd",
+    // // Hace que el cursor no parpadee
+    // "editor.cursorBlinking": "solid",
+    // // Cambia el estilo del cursor a bloque
+    // "editor.cursorStyle": "block",
+    // // "workbench.colorCustomizations": {
+    // //   "editorCursor.background": "#000000",
+    // //   "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    // //   "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    // //   "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    // //   "editorOverviewRuler.wordHighlightForeground": "#0000",
+    // //   "editorOverviewRuler.bracketMatchForeground": "#0000",
+    // //   "editorOverviewRuler.findMatchForeground": "#0000",
+    // //   "editorOverviewRuler.modifiedForeground": "#0000",
+    // //   "editorOverviewRuler.deletedForeground": "#0000",
+    // //   "editorOverviewRuler.warningForeground": "#0000",
+    // //   "editorOverviewRuler.addedForeground": "#0000",
+    // //   "editorOverviewRuler.errorForeground": "#0000",
+    // //   "editorOverviewRuler.infoForeground": "#0000",
+    // //   "editorOverviewRuler.border": "#0000",
+    // //   "[Aura Dracula Spirit (Soft)]": {
+    // //     "editorSuggestWidget.selectedBackground": "#3A334B",
+    // //     "sideBar.background": "#191521"
+    // //   }
+    // // },
+    // // Fuente usada en la terminal integrada
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    // // Fuente usada en el editor
+    "editor.fontFamily": "JetBrainsMonoNL Nerd Font",
+    // //STATUS BAR FONT CLASS
+    // // Tamaño de fuente del editor
+    "editor.fontSize": 14,
+    // //Grosor de fuente del editor
+    "editor.fontWeight": "500",
+    // // Habilita ligaduras tipográficas (como “=>” combinadas)
+    "editor.fontLigatures": true,
+    // // Altura de línea del texto
+    "editor.lineHeight": 1.9,
+    // // Aplica cursiva a los comentarios del código
+    // // "editor.tokenColorCustomizations": {
+    // //   "textMateRules": [
+    // //     {
+    // //       "scope": "comment",
+    // //       "settings": {
+    // //         "fontStyle": "italic"
+    // //       }
+    // //     }
+    // //   ]
+    // // },
+    // // Desactiva/Activa el scroll adhesivo en el editor
+    "editor.stickyScroll.enabled": true,
+    // // Desactiva/Activa los decoradores de color (para ver variables de color)
+    "editor.colorDecorators": true,
+    // // Desactiva/Activa los indicadores de referencias (CodeLens)
+    "editor.codeLens": true,
+    // // Desactiva/Activa los enlaces clicables en el código
+    "editor.links": true,
+    // // Desactiva/Activa el resaltado de corchetes coincidentes
+    "editor.matchBrackets": "always",
+    // // Desactiva/Activa las sugerencias de parámetros al escribir funciones
+    "editor.parameterHints.enabled": true,
+    // // Desactiva/Activa la bombilla de sugerencias (acciones rápidas)
+    // "editor.lightbulb.enabled": "on",
+    // // Desactiva/Activa el cuadro de información flotante al pasar el cursor
+    "editor.hover.enabled": true,
+    // // Elimina espacios en blanco al final de cada línea
+    "files.trimTrailingWhitespace": true,
+    // // Inserta una línea nueva al final del archivo al guardar
+    "files.insertFinalNewline": true,
+    // // Desactiva/Activa los indicadores de diferencia en Git
+    "scm.diffDecorations": "all",
+    // // Muestra números de línea relativos
+    "editor.lineNumbers": "on",
+    // // Define el tamaño de tabulación
+    "editor.tabSize": 2,
+    // // No detectar indentación automática
+    "editor.detectIndentation": false,
+    // // Oculta los controles de plegado (flechas para colapsar código)
+    "editor.showFoldingControls": "always",
+    // // No mostrar guías de indentación
+    "editor.guides.indentation": false,
+    // // No mostrar caracteres de espacio o tabulación
+    "editor.renderWhitespace": "none",
+    // // No resaltar la línea actual
+    "editor.renderLineHighlight": "none",
+
+    // "editor.indentSize": "tabSize",
+    // // Desactiva/Activa el resaltado de ocurrencias
+    // "editor.occurrencesHighlight": "multiFile",
+    // // Desactiva/Activa el resaltado de selección
+    // "editor.selectionHighlight": false,
+    // // Oculta la barra de scroll horizontal
+    // "editor.scrollbar.horizontal": "hidden",
+    // // Oculta la barra de scroll vertical
+    // "editor.scrollbar.vertical": "auto",
+    // // Oculta el borde del overview ruler (mini barra lateral)
+    "editor.overviewRulerBorder": true,
+    // // Oculta el cursor en el overview ruler
+    // "editor.hideCursorInOverviewRuler": true,
+    // "editor.quickSuggestions": {
+    //   "other": "on",
+    //   "comments": "off",
+    //   "strings": "on"
+    // },
+    // "editor.suggestOnTriggerCharacters": true,
+    // // Permite usar Tab para completar snippets o sugerencias
+    "editor.tabCompletion": "on",
+    // // Prioriza los snippets en las sugerencias
+    "editor.snippetSuggestions": "top",
+    // // Permite expandir abreviaciones Emmet con Tab
+    "emmet.triggerExpansionOnTab": true,
+    // // Guarda archivos automáticamente después de un pequeño retraso
+    "files.autoSave": "off",
+    // // Desactiva/Activa las actualizaciones automáticas de VS Code
+    "update.mode": "none",
+    // // Ignora las recomendaciones de extensiones del marketplace
+    "extensions.ignoreRecommendations": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "í": true
+    },
+    "editor.unicodeHighlight.includeComments": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "glassit.alpha": 255,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "database-client.autoSync": true
+}
