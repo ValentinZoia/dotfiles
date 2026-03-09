@@ -76,7 +76,7 @@ alias fzfbat='fzf --preview="batcat --theme=gruvbox-dark --color=always {}"'
 # acciones: Abrir archivos con zed
 alias fzfzed='zed $(fzf --preview="batcat --theme=gruvbox-dark --color=always {}")'
 
-eval "$(fzf --zsh)"
+
 
 
 # fd for path completion
@@ -127,11 +127,7 @@ _fzf_comprun() {
   esac
 }
 
-# ==================================================
-# zoxide (smart cd)
-# ==================================================
 
-eval "$(zoxide init zsh)"
 
 
 # ==================================================
@@ -177,7 +173,11 @@ fzfcd() {
 # Set up fzf key bindings and fuzzy completions
 eval "$(fzf --zsh)"
 
+# ==================================================
+# zoxide (smart cd)
+# ==================================================
 
+eval "$(zoxide init zsh)"
 
 # ==================================================
 # neofetch clear function
